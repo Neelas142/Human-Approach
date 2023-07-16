@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+PATTERN 2
+
+
+
+package pattern2;
+
+
+
+
+
+
+
+
+
+
+PATTERN 3
+
+
+
+
+
+
+
+package pattern3;
+
+
+
+
+
+
+
+
+
+
+
+
+PATTERN 4
+
+
+
+
+
+package pattern4;
+
+
+
+
+
+
+
+
