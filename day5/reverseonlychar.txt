@@ -1,0 +1,25 @@
+import static java.lang.Character.isAlphabetic;
+public class reverseonlychar {
+    public static void main(String[] args) {
+        char[] a = {'a', '!', 's', 't', 'o', '*', '(', 'i'};
+        int i = 0;
+        int j = a.length - 1;
+        while(i<j) {
+            if (!isAlphabetic(a[i])) {
+                i++;
+            } else if (!isAlphabetic(a[j])) {
+                j--;
+            } else {
+                char c = (a[i]);
+                a[i] = a[j];
+                a[j] = c;
+                i++;
+                j--;
+            }
+        }
+        for (i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
+    }
+}
+
